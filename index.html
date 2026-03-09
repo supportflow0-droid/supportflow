@@ -40,7 +40,13 @@
         }
     </style>
 </head>
-<body>
+<script>
+function searchSite() {
+  const query = document.getElementById('search-input').value.toLowerCase();
+  if(query) alert('Search feature is not connected yet. You searched: ' + query);
+}
+</script>
+    <body>
     <nav>
   <ul>
     <li><a href="#home">Home</a></li>
@@ -123,3 +129,4 @@ nav button:hover {
 </body>
 
 </html>
+
